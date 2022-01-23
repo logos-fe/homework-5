@@ -21,6 +21,7 @@
 	background: #F3F4F6;
 	margin: 0 auto;
 	position: sticky;
+	z-index: 2;
 }
 
 
