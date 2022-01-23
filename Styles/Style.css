@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header {
+    display: flex;
+    width: 80%;
+    height: 80px;
+    background-color: white;
+    top: 24px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    margin-left: 32px;
+    align-items: center;
+}
+
+.txt-white {
+    color: white;
+}
+
+.about {
+    text-align: center;
+    top: 200px;
+    font-size: 52px;
+    z-index: 1;
+}
+
+.about-mini {
+    text-align: center;
+    font-size: 18px;
+    z-index: 1;
+    margin-top: 22px;
+}
+
+.menu {
+    display: flex;
+    gap: 22px;
+}
+
+.block-icon {
+    display: flex;
+    gap: 10px;
+    margin-right: 32px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin-top: 46px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.gallery {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 235px;
+}
+
+.main-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 96px;
+    }
+
+button:hover {
+    transform: scale(1.1);
+    transition-duration: 1000ms;
+}
+
+.page:hover {
+    transform: scale(2);
+    transition-duration: 500ms;
+}
