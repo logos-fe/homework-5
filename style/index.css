@@ -1,0 +1,180 @@
+
+.main-page {
+    font-family: 'Inconsolata';
+    background: url(../img/image\ 141.png) no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+}
+.header {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    width: 1206px;
+    height: 80px;
+    background: #F3F4F6;
+    line-height: 80px;
+    color: #000000;
+    transform: translate(-50%, -50%);
+    margin-top: 80px;
+}
+.about,
+.features,
+.pricing,
+.gallery,
+.team {
+    width: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+.logo-img {
+    font-size: 50px;
+    margin-left: 20px;
+}
+.strong {
+    font-weight: 900;
+}
+.logo {
+    position: static;
+    left: 25.86%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-weight: 300;
+    font-size: 22px;
+    flex: none;
+    flex-grow: 0;
+    margin: 0px;
+}
+.about {
+    position: static;
+    left: 0%;
+    right: 89.38%;
+    top: 0%;
+    bottom: 0%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 40px;
+}
+.features {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 40px;
+}
+.pricing {
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 40px;
+}
+.gallery {
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 40px;
+}
+.team {
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 0px 40px;
+}
+.total {
+    order: 5;
+    padding-left: 200px;
+}
+.search {
+    order: 6;
+}
+.menu {
+    order: 7;
+}
+.total,
+.search,
+.menu {
+    cursor: pointer;
+    flex: none;
+    flex-grow: 0;
+    margin: 0 10px;
+    font-size: 25px;
+}
+.main-text {
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: center; 
+    justify-content:center;
+    padding-top: 50px;
+}
+.h1-text {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 61px;
+    text-align: center;
+    margin: 30px;
+    
+}
+.text {
+    font-weight: normal;
+    font-size: 20px;
+    font-weight: 400;
+}
+.text,
+.h1-text {
+    color: white;
+}
+button {
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    font-weight: 500;
+    font-size: 25px;
+    cursor: pointer;
+}
+button:hover {
+    background: rgb(180, 179, 179);
+}
+.about:hover,
+.features:hover,
+.pricing:hover,
+.gallery:hover,
+.team:hover {
+    font-weight: 900;
+}
+.scroll-menu {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    bottom: -50px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    transform: translate(-50%, -50%);
+}
+.button1 {
+    background-color: #ffffff; 
+    border: none;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 10px 30px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    height: 5mm;
+    width: 5mm;
+}
+.button1:hover {
+    transform: scale(1.2);
+}
