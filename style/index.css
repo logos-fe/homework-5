@@ -31,27 +31,8 @@
     cursor: pointer;
 }
 .logo-img {
-}
-.line1 {
-    order: 0;
-    
-}
-.line2 {
-    order: 1;
-}
-.line3 {
-    order: 2;
-}
-.line1,
-.line2,
-.line3 {
-    position: fixed;
-    flex: none;
-    flex-grow: 0;
-    width: 5px;
-    height: 35px;
-    background-color: #333;
-    margin: 10px 0;
+    font-size: 50px;
+    margin-left: 20px;
 }
 .strong {
     font-weight: 900;
@@ -66,7 +47,7 @@
     font-size: 22px;
     flex: none;
     flex-grow: 0;
-    margin: 0px 10px;
+    margin: 0px;
 }
 .about {
     position: static;
@@ -105,7 +86,7 @@
 }
 .total {
     order: 5;
-    padding-left: 250px;
+    padding-left: 200px;
 }
 .search {
     order: 6;
