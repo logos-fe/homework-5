@@ -5,10 +5,6 @@
     width: 1440px;
     height: 700px;
 }
-
-/* Menu */
-
-
 .header-nav{
     position: absolute;
     width: 1206px;
@@ -18,110 +14,29 @@
     background: #F3F4F6;
     padding: 5px;
     }
-.header-menu{
-    text-align: left;
-}
-
-.logo1{
-    display: inline-block;
-    width: 3px;
-    height: 20px;
-    background-color: white;
-    border-radius: 20px;
-    background: linear-gradient(to bottom right,#EC008C, #FC6767);
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 32px;
-}
-.logo2{
-    display: inline-block;
-    width: 3px;
-    height: 16px;
-    background-color: white;
-    border-radius: 20px;
-    background: linear-gradient(to bottom right,#E65C00,#F9D423);
-    text-align: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 5px;
-}
-.logo3{
-    display: inline-block;
-    width: 3px;
-    height: 12px;
-    background-color: white;
-    border-radius: 15px;
-    background: linear-gradient(to bottom right, #00D2FF, #3A7BD5);
-    text-align: center;
-    margin-top: 34px;
-    margin-bottom: 34px;
-    margin-left: 5px;
-}
-.logo4{
-    display: inline-block;
-    text-align: center;
+.header-nav-logo{
     position: absolute;
-    left: 71px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    margin-top: 27px;
-    margin-bottom: 27px;
-    margin-left: 5px;
-}
-.logo5{
+    left: 32px;
+    top: 27px;
     display: inline-block;
-    text-align: center;
-    position: absolute;
-    left: 114px;
-    font-weight: 700; 
-    font-style: normal;
-    font-size: 22px;
-    margin-top: 27px;
-    margin-bottom: 27px;
-    margin-right: 71px;
 }
-
-
-.header-menu_item{
+.header-nav-items{
     display: inline-block;
-    position: absolute;
+    margin: 30px;
+}
+.header-nav-left{
     color: black;
-    font-size: 12px;
-    font-weight: 700px;
-    line-height: 18px;
-    text-transform: uppercase;
-    padding: 30px;
+    position: absolute;
+    left: 220px;
 }
-.about{
-    left: 219px;
-}
-.features{
-    left: 302px;
-}
-.pricing{
-    left: 404px;
-}
-.gallery{
-    left: 494px;
-}
-.team{
-    left: 584px;
-}
-.fa1{
-    right: 146px;
-}
-.fa2{
-    right: 93px;
-}
-.fa3{
-    right: 35px;
+.header-nav-right{
+    position: absolute;
+    right: 20px;
 }
 
 /* Title */
 
-.tittle{
+.title{
     position: absolute;
     width: 518px;
     height: 61px;
@@ -135,7 +50,7 @@
     text-align: center;
     color: #FFFFFF;
 }
-.subtittle{
+.subtitle{
     position: absolute;
     width: 536px;
     height: 21px;
@@ -150,87 +65,27 @@
     color: #FFFFFF;
 }
 .button{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 26px;
-    
     position: absolute;
     width: 200px;
     height: 50px;
     left: 620px;
     top: 350px;
-    
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 5px;
 }
 .button-text{
-    position: static;
     width: 200px;
     height: 50px;
     left: 64.5px;
     top: 15.5px;
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
-.elips79{
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 549px;
-    top: 635px;
-}
-.elips80{
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 598px;
-    top: 629px;
-}
-.elips81{
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 659px;
-    top: 635px;
-}
-.elips82 {
-     position: absolute;
-width: 12px;
-height: 12px;
-left: 714px;
-top: 635px;
-}
-.elips83 {
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 769px;
-    top: 635px;
-}
-.elips84 {
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 824px;
-    top: 635px;
-}
-.elips85 {
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 879px;
-    top: 635px;
+.circle{
+    display: inline-block;
+    margin-left: 657px;
+    margin-top: 650px;
 }
