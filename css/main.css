@@ -146,8 +146,9 @@ p{
     border-radius: 5px;
     font-size: 16px;
 line-height: 19px;
-margin-left: 684.5px;
-margin-top: 61.5px;
+position: relative;
+left: 43%;
+top: 6%;
 transition: 1s;
 cursor: pointer;
 }
