@@ -1,0 +1,125 @@
+body {
+    background: url(./image/image\ 141.png);
+}
+
+.menu {
+    background-color: #F3F4F6;
+    width: 1206px;
+    height: 80px;
+    top: 24px;
+    left: 117px;
+    position: absolute;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.logo {
+    width: 116px;
+    height: 26px;
+    left: 149px;
+    top: 51px;
+    margin-top: 27px ;
+    margin-left: 32px;
+}
+
+
+.menu-box {
+   width: 405px;
+   height: 19px;
+    text-align: center;
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 29px;
+    margin-left: 71px;
+}
+
+.About_text , .Features_text , .Pricing_text , .Gallery_text , .Team_text{
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.header-fas_fa-shopping-bag , .header-fas_fa-search , .header-fas_fa-bars {
+    width: 24px;
+    height: 24px;
+
+}
+
+.header-fas_fa-shopping-bag {
+    margin-left: 416px;
+margin-top: 32px;
+margin-right: 0;
+padding: 0;
+}
+
+.header-fas_fa-search {
+    margin-left: 37px;
+    margin-top: 31px;
+    margin-right: 0;
+
+}
+
+.header-fas_fa-bars {
+    margin-left: 37px;
+    margin-top: 31px;
+}
+
+
+.h1 {
+    position: absolute;
+    width: 518px;
+    height: 61px;
+    left: 461px;
+    top: 200px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 61px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+
+.subtitle {
+    color #FFFFFF;
+width:536px;
+height: 21px;
+top: 283px;
+left: 452px;
+text-align: center;
+font-weight: 400px;
+font-style: normal;
+font-size: 18px;
+text-align: center;
+color:#FFFFFF;
+position: absolute;
+
+}
+
+
+.button_shop-now {
+    background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+position: absolute;
+width: 200px;
+height: 50px;
+left: 620px;
+top: 350px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px 26px;
+}
+
+
+.group_img {
+    position: absolute;
+width: 342px;
+height: 24px;
+left: 549px;
+top: 629px;
+}
